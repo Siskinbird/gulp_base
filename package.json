@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Base gulp project",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siskinbird/gulp_base.git"
+  },
+  "keywords": [
+    "Chigchig1"
+  ],
+  "author": "Dmitry Chizhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siskinbird/gulp_base/issues"
+  },
+  "homepage": "https://github.com/Siskinbird/gulp_base#readme"
+}
