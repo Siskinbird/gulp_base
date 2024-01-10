@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Base gulp project",
   "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +11,14 @@
     "type": "git",
     "url": "git+https://github.com/Siskinbird/gulp_base.git"
   },
-  "keywords": [
-    "Chigchig1"
-  ],
   "author": "Dmitry Chizhov",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Siskinbird/gulp_base/issues"
   },
-  "homepage": "https://github.com/Siskinbird/gulp_base#readme"
+  "homepage": "https://github.com/Siskinbird/gulp_base#readme",
+  "devDependencies": {
+    "del": "^7.1.0",
+    "gulp": "^4.0.2"
+  }
 }
