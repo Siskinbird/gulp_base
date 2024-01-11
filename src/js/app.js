@@ -1,4 +1,7 @@
-console.log('Hello world')
+import * as myFunctions from './modules/functions.js';
 
-console.log('Hello world')
-console.log('Hello world')
+myFunctions.isWebp();
+
+import Swiper, {Navigation, Pagination} from 'swiper';
+
+const swiper = new Swiper();
