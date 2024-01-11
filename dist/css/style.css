@@ -1,0 +1,16 @@
+.no-webp body {
+  background: url("../img/images.jpg") 0 0 no-repeat; }
+
+body {
+  background-color: black;
+}
+
+body p {
+  color: red;
+}
+
+body h1 {
+  color: white;
+}
+
+.webp body { background: url(../img/images.webp) 0 0 no-repeat; }

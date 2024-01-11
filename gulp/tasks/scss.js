@@ -19,7 +19,7 @@ export const scss = () => {
       message: "Error: <%= error.message %>"
     }))
   )
-  .pipe(app.plugins.replace(/@img\//g, 'img/'))
+  .pipe(app.plugins.replace(/@img\//g, '../img/'))
   .pipe(sass({
     outputStyle: 'expanded'
   }))
@@ -33,11 +33,11 @@ export const scss = () => {
     overrideBrowserlist: ['last 3 version'],
     cascade: true
   }))
+  .pipe(app.gulp.dest(app.path.build.css)) //Нормальный css , закомментить на продакшне
   .pipe(cleanCss())
   .pipe(rename({
      extname: '.min.css'
   }))
-  .pipe(app.gulp.dest(app.path.build.css))
   .pipe(app.plugins.browsersync.stream())
   .pipe(app.gulp.dest(app.path.build.css))
 
