@@ -1,4 +1,11 @@
-
+@import 'fonts';
+body {
+  font-family: Montserrat;
+  font-weight: 600;
+  p {
+    color: black;
+  }
+}
 
 .container {
   margin: 0 auto;
@@ -36,5 +43,6 @@
   li {
     list-style-type: none;
     margin-right: 20px;
+    color: black;
   }
 }
