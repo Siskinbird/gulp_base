@@ -5,8 +5,10 @@
   "main": "gulpfile.js",
   "type": "module",
   "scripts": {
-    "sprite": "gulp svgSprite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "svgSprive": "gulp svgSprive",
+    "zip": "gulp deployZIP --build",
+    "build": "gulp build --build"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
     "gulp-fonter": "^0.3.0",
     "gulp-fonter-fix": "^0.0.1",
     "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^3.0.0",
     "gulp-imagemin": "^9.0.0",
     "gulp-newer": "^1.4.0",
     "gulp-notify": "^4.0.0",
@@ -43,6 +46,7 @@
     "gulp-webp": "^5.0.0",
     "gulp-webp-html-nosvg": "^1.1.1",
     "gulp-webpcss": "^1.1.1",
+    "gulp-zip": "^6.0.0",
     "sass": "^1.69.7",
     "swiper": "^11.0.5",
     "webp-converter": "^2.2.3",
