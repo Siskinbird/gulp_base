@@ -9,7 +9,7 @@ export const isWebp = () => {
   }
   
   testWebP(function (support) {
-    let className = support === true ? 'webp' : 'nj-webp';
+    let className = support === true ? 'webp' : 'no-webp';
     document.documentElement.classList.add(className);
   });
 }

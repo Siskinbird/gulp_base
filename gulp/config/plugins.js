@@ -4,6 +4,7 @@ import notify from 'gulp-notify';
 import browsersync from 'browser-sync';
 import newer from 'gulp-newer';
 import ifPlugin from 'gulp-if';
+// import bootstrap from 'bootstrap'
 
 
-export const plugins = { replace, plumber, notify, browsersync, newer, ifPlugin };
+export const plugins = { replace, plumber, notify, browsersync, newer, ifPlugin};

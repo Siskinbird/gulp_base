@@ -1,0 +1,15 @@
+.about {
+    background: #0c1022;
+    position: relative;
+    height: 400px;
+    max-width: 100%;
+    z-index: 22;
+    .test {
+        background: linear-gradient(266deg, #B5A9FF 0%, #6E81FE 101.9%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    &-inner {
+        padding-top: 60px;
+    }
+}
